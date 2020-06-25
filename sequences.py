@@ -2,7 +2,7 @@
 
 name = "Aditi"
 coordinates = (10.0 , 20.0)
-friends = ["Aditi" , "Priyada" , "Deepti" , "Siddhi" ,
+friends = ["Priyada" , "Deepti" , "Siddhi" ,
 "Mayur" , "Nikhil" , "Sumant" , "Vivek"]
 
 print(f"Fourth letter in {name} is " + name[3])
