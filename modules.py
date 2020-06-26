@@ -1,20 +1,9 @@
-def square(x):
-        return x * x
+from functions import square
+
+print(square(25))
 
 
-def main():
-    for i in range(10):
-        print("{} squared is {}".format( i , square(i) ))
-
-    for i in range(10):
-        print(f" * {i} squared is {square(i)} * ")
-
-#This means that if this file is running then execute only main function
-if __name__ == "__main__":
-    main()
-
-
-#Output of second print stmt
+#Output is with original functions file where
 # 0 squared is 0
 # 1 squared is 1
 # 2 squared is 4
@@ -35,3 +24,7 @@ if __name__ == "__main__":
 #  * 7 squared is 49 *
 #  * 8 squared is 64 *
 #  * 9 squared is 81 *
+# 625
+
+#Output after adding main function and the condition in functions.py file
+# 625
