@@ -18,3 +18,7 @@ print(f" {x} / {y} = {result}")
 #   File "exceptions.py", line 7, in <module>
 #     result = x / y
 # ZeroDivisionError: division by zero
+#Output for non exceptional values
+# X : 4
+# Y : 5
+#  4 / 5 = 0.8
